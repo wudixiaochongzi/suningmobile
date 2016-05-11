@@ -31,14 +31,14 @@ window.onload=function(){
             yuannavbtn.style.cssText+="transform:translateY(-2.2rem);background:#fff;border:1px solid #ccc";
             heng.style.cssText+="background:#ccc;transform:rotate(45deg)";
             shu.style.cssText+="background:#ccc;transform:rotate(45deg)";
-            backcolor.style.display="block";
+            backcolor.style.opacity=0.4;
             flag=false;
         }else if (flag==false) {
             bignav.style.transform="scale(0,0)";
             yuannavbtn.style.cssText+="transform:translateY(0);background:#eda200;border:none";
             heng.style.cssText+="background:#fff;transform:rotate(0deg)";
             shu.style.cssText+="background:#fff;transform:rotate(0deg)";
-            backcolor.style.display="none";
+            backcolor.style.opacity=0;
             flag=true;
         }
     }
